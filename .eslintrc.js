@@ -1,0 +1,45 @@
+module.exports = {
+  env: {
+    browser: true,
+    node: true,
+    commonjs: true
+  },
+  parser: "@typescript-eslint/parser",
+  plugins: ["@typescript-eslint", "react-hooks", "import", "prettier"],
+  extends: [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended",
+    "prettier/@typescript-eslint",
+    "prettier/react"
+  ],
+  parserOptions: {
+    ecmaVersion: 2020,
+    sourceType: "module",
+    ecmaFeatures: {
+      jsx: true
+    }
+  },
+  settings: {
+    react: {
+      version: "detect"
+    }
+  },
+  globals: {
+    React: "writable"
+  },
+  rules: {
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "react/prop-types": "off",
+    "import/order": [
+      "error", {
+        alphabetize: {
+          order: "asc"
+        }
+      }
+    ]
+  }
+}

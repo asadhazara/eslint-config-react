@@ -1,0 +1,21 @@
+{
+  "name": "@zorrilla/eslint-config-react",
+  "version": "0.0.1",
+  "description": "Eslint and Prettier Setup - with or without VS Code",
+  "main": "index.js",
+  "author": "Asad Hazara <asad@zorrillamedia.com>",
+  "repository": "git@github.com:asadhazara/eslint-config-react.git",
+  "license": "MIT",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.0.0",
+    "@typescript-eslint/parser": "^3.0.0",
+    "eslint": "^7.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.2",
+    "prettier": "2.0.5"
+  }
+}
