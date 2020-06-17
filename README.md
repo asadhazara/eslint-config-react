@@ -1,3 +1,3 @@
-# Eslint and Prettier Setup - with or without VS Code
+# Eslint and Prettier Setup
 
-You can use this config for a project using react and typescript.
+You can use this config for a project using Teact and Typescript.
