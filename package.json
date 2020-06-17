@@ -1,6 +1,6 @@
 {
   "name": "@zorrilla/eslint-config-react",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Eslint and Prettier Setup",
   "main": "index.js",
   "author": "Asad Hazara <asad@zorrillamedia.com>",
