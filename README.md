@@ -19,9 +19,7 @@ npx install-peerdeps --dev @zorrilla/eslint-config-react
 
 ```json
 {
-  "extends": [
-    "@zorrilla/eslint-config-react"
-  ]
+  "extends": "@zorrilla/react"
 }
 ```
 
